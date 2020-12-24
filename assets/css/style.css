@@ -1,11 +1,26 @@
-body{
-    font-family: 'Tajawal', sans-serif;
+body {
+    font-family: 'Viga', sans-serif;
     margin: 0;
     padding: 0;
 }
-.tipografia_logo{
-    font-family: 'Viga', sans-serif;
-}
-.navbar-brand{
+
+.navbar-brand {
     font-size: 2.5rem;
 }
+
+.hero {
+    width: 100%;
+}
+
+header {
+    background-image: url(../img/hero1_edited.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+
+/*.foto-header{
+    width: 100%;
+}
+*/
