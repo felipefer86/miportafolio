@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.fuente-texto {
+    font-family: 'Nunito', sans-serif;
+}
+
 .navbar-brand {
     font-size: 2.5rem;
 }
@@ -12,15 +16,24 @@ body {
     width: 100%;
 }
 
-header {
+.hero-lg {
     background-image: url(../img/hero1_edited.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
 }
 
-
-/*.foto-header{
-    width: 100%;
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 40%;
+    background-color: #373a3c;
 }
-*/
+
+.carousel-indicators {
+    top: 105%;
+}
+
+.logo_size {
+    width: 200px;
+}

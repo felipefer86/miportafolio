@@ -10,8 +10,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&family=Viga&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Viga&display=swap" rel="stylesheet">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/9edcc509c8.js" crossorigin="anonymous"></script>
     <!--Mi estilo-->
@@ -19,8 +18,8 @@
 
 </head>
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-0">
-    <a class="navbar-brand text" href="#">{F/F/M}</F></a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-info py-0">
+    <a class="navbar-brand text ml-2" href="#">{F//F}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,24 +42,155 @@
     </div>
 </nav>
 
-<body>
+<body class="text-dark">
 
     <!--Hero Section-->
     <header>
-        <section class="container-fluid text-right py-0 px-0 mt-0">
-            <div class="mr-5 text-dark text-right">
-                <h1 class="pt-5">{Felipe Fernández Méndez}</h1>
-                <h2 class="pb-5">Traducción Inglés Español // Desarrollo Front End</h2>
+        <section class="container-fluid px-0 mx-0 d-block d-md-none">
+            <div>
+                <img class="img-fluid" src="assets/img/hero1_sm.jpg" alt="foto felipe small">
             </div>
-
-
+            <div class="text-center">
+                <h2 class="pt-5">{FELIPE FERNÁNDEZ}</h2>
+                <h3 class="pb-5">Traducción EN<>SP // Desarrollo Front End</h3>
+            </div>
         </section>
-
-
-
+        <section class="hero-lg container-fluid text-right py-0 px-0 mt-0 d-none d-md-block">
+            <div class="mr-5 text-right">
+                <h1 class="pt-5 pb-1">{FELIPE FERNÁNDEZ}</h1>
+                <h2 class="pb-1">[Traducción EN<>SP]</h2>
+                <h2 class="pb-5">[Desarrollo Front End]</h2>
+            </div>
+        </section>
     </header>
 
+    <!--Sección Sobre mí-->
+    <section class="container my-5">
+        <div class="text-center">
+            <h2 class="border-bottom pb-4">SOBRE MÍ</h2>
+        </div>
+        <div class="row fuente-texto text-justify my-4">
+            <div class="col-12 col-sm-12 col-md-6">
+                <p>
+                    Como Traductor Inglés Español, poseo experiencia en diversas áreas; educación, turismo y
+                    entidades financieras, desenvolviéndome en instituciones y empresas de estas áreas, como son el
+                    Museo Chileno de Arte Precolombino, Universidad de Arte y Ciencias Sociales ARCIS,
+                    Experian Services Chile, entre otros. Además, he ejercido mi profesión de forma independiente con
+                    distintos clientes.
+                </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+                <p>
+                    Actualmente me encuentro estudiando Desarrollo Web Front End en un programa de Talento Digital para
+                    Chile en la Academia Desafío Latam. Este curso se enmarca en la modalidad Bootcamp y, en sintonía
+                    con ésto, ya he podido desarrollar algunos proyectos de páginas web, como se detalla en la sección
+                    "Mis Últimos Proyectos".
+                </p>
+            </div>
+        </div>
+    </section>
 
+    <!--Sección Experiencia (carrusel)-->
+    <section class="container py-3 my-5">
+        <div class="text-center pb-4">
+            <h2>EXPERIENCIA</h2>
+        </div>
+        <div id="Carrusel" class="carousel slide mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#Carrusel" data-slide-to="0" class="active"></li>
+                <li data-target="#Carrusel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <img class="logo_size" src="assets/img/DL_logo.png" class="img-fluid" alt="1">
+                            <h5>Diciembre 2020 >> Presente</h5>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <img class="logo_size" src="assets/img/mcap_logo.png" class="img-fluid" alt="2">
+                            <h5>Septiembre 2016 >> Octubre 2019</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <img class="logo_size" src="assets/img/experian_logo.jpeg" class="img-fluid" alt="3">
+                            <h5>Septiembre 2014 >> Agosto 2016</h5>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <img class="logo_size" src="assets/img/uarcis_logo.png" class="img-fluid" alt="4">
+                            <h5>Marzo 2013 >> Junio 2015 </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Mis Proyectos-->
+    <section class="container-fluid bg-info py-5 my-5">
+        <div class="text-center text-white py-5">
+            <h2>MIS ÚLTIMOS PROYECTOS</h2>
+        </div>
+        <div class="card-deck mb-4 px-5 text-center">
+            <div class="card">
+                <img src="assets/img/ricomida.png" class="card-img-top" alt="Proyecto Ricomida">
+                <div class="card-body">
+                    <h5 class="card-title">Ricomida</h5>
+                    <p class="card-text">Página web de recetas y datos culinarios.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/iguana_page.png" class="card-img-top" alt="Proyecto Iguana">
+                <div class="card-body">
+                    <h5 class="card-title">Iguana</h5>
+                    <p class="card-text">Página web informativa sobre la iguana y sus características.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/suricata.png" class="card-img-top" alt="Proyecto Suricata">
+                <div class="card-body">
+                    <h5 class="card-title">Suricata</h5>
+                    <p class="card-text">Página web del restaurant "Suricata".</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck px-5 text-center">
+            <div class="card">
+                <img src="assets/img/cuppon.png" class="card-img-top" alt="Proyecto Cuppon">
+                <div class="card-body">
+                    <h5 class="card-title">Cuppon</h5>
+                    <p class="card-text">Página web de cupones de descuento y diversas promociones.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Proyecto Meet&Coffee">
+                <div class="card-body">
+                    <h5 class="card-title">Meet & Coffee</h5>
+                    <p class="card-text">Página web de Meet & Coffee, lugar de reuniones con servicio de cafetería.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/translate.jpg" class="card-img-top" alt="Servicio de Traducciones">
+                <div class="card-body">
+                    <h5 class="card-title">Traducción Freelance</h5>
+                    <p class="card-text">Servicio freelance de traducción Inglés <> Español.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Contacto-->
+    <section>
+        <div class="text-center pb-4">
+            <h2>CONTÁCTAME</h2>
+        </div>
+        <div>
+            
+        </div>
+    </section>
 
 
 
