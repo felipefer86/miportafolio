@@ -8,7 +8,7 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.navbar-brand {
+.brand {
     font-size: 2.5rem;
 }
 
@@ -16,8 +16,12 @@ body {
     width: 100%;
 }
 
+.text-header{
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+}
+
 .hero-lg {
-    background-image: url(../img/hero1_edited.jpg);
+    background-image: url(../img/hero1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -37,3 +41,12 @@ body {
 .logo_size {
     width: 40%;
 }
+
+.iconos {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
